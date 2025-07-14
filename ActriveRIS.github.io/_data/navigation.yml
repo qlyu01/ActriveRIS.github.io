@@ -7,7 +7,5 @@ main:
     url: /educational-activities/
   - title: "Objectives"
     url: /objectives/
-  # - title: "Collaborators"
-  #   url: /collaborators/
   - title: "Publications"
     url: /publications/
