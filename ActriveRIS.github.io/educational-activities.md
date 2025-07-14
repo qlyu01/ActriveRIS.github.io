@@ -1,6 +1,7 @@
 ---
 title: "Educational Activities"
 layout: single
+permalink: /educational-activities/
 ---
 
 This project aims to solve the key problem of coverage limitation at above 100 GHz
