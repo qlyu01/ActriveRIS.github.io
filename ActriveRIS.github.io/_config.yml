@@ -37,6 +37,17 @@ plugins:
 
 markdown: kramdown
 
+header_pages:
+  - index.md
+  - about.markdown
+  - personnel.md
+  - collaborators.md
+  - educational-activities.md
+  - objectives.md
+  - publications.md
+  - outreach.md
+  - code_datasets.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
