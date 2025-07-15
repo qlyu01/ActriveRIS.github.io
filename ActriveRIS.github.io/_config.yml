@@ -39,7 +39,6 @@ markdown: kramdown
 
 header_pages:
   - index.md
-  - about.markdown
   - personnel.md
   - collaborators.md
   - educational-activities.md
