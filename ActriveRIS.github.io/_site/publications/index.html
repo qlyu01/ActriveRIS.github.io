@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Synopsis - ACTIVE-RIS</title>
+<!-- begin _includes/seo.html --><title>Publications - ACTIVE-RIS</title>
 <meta name="description" content="Design and Algorithms for Active Reconfigurable Intelligent Surfaces for sub-THz Wireless Networks.">
 
 
@@ -18,8 +18,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="ACTIVE-RIS">
-<meta property="og:title" content="Synopsis">
-<meta property="og:url" content="http://localhost:4000/ACTIVE-RIS/">
+<meta property="og:title" content="Publications">
+<meta property="og:url" content="http://localhost:4000/ACTIVE-RIS/publications/">
 
 
   <meta property="og:description" content="Design and Algorithms for Active Reconfigurable Intelligent Surfaces for sub-THz Wireless Networks.">
@@ -35,20 +35,10 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/ACTIVE-RIS/">
+<link rel="canonical" href="http://localhost:4000/ACTIVE-RIS/publications/">
 
 
 
-
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": null,
-    "url": "http://localhost:4000/ACTIVE-RIS/"
-}
-</script>
 
 
 
@@ -85,7 +75,7 @@
 
   </head>
 
-  <body class="layout--splash" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -163,48 +153,95 @@
     <div class="initial-content">
       
 
+
+
+
+
 <div id="main" role="main">
-  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Synopsis">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Publications">
     
     
     
 
-    <section class="page__content" itemprop="text">
-      <style>
-  .edu-activity { 
-    text-align: justify; 
-    text-justify: inter-word; 
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/ACTIVE-RIS/publications/" itemprop="url">Publications
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <style>
+  .publications-list {
+    text-align: justify;   /* if you still want justification */
+    text-justify: inter-word;
     line-height: 1.6;
-    margin-bottom: 2rem;
+  }
+  .publications-list li {
+    margin-bottom: .5em;
   }
 </style>
 
-<div class="edu-activity">
-The vast terahertz spectra above 100 GHz recently opened up for wireless communications, unleashing exciting possibilitiesbut also presenting many challenges because of the extremely high path loss,
-high absorption, and increased blockage susceptibility. Reconfigurable Intelligent Surface (RIS) antennas, specifically activedesigns (active-RIS), are an emerging technology that promises to provide additional, 
-viable wireless paths, improvingwireless coverage with efficient control over reflected signals and low power consumption. However, limited efforts have beendedicated to the hardware design and prototyping of wideband RIS at and above 100 GHz. 
-Similarly, there is a lack of novelcommunication and network algorithms for active-RIS-aided wideband systems in the sub-THz bands, as well asexperimental evaluation and validation of such unique sub-THz networks with active RIS.
+<!-- 2. 把列表放到这个容器里 -->
+<div class="publications-list">
+  <ol>
+    <li>
+      Lim, Byungju, and Mai Vu. “Distributed Graph-Based Learning for User Association and Beamforming Design in Multi-RIS Multi-Cell Networks.” 
+      <em>IEEE Transactions on Wireless Communications</em>, vol. 24, no. 7, pp. 6118–6134, July 2025.
+    </li>
+    <li>
+      Chapagain, Laxmi, and Shuai Nie. “Design and Characterization of Dual-Band Complementary Split-Ring Resonator Array in the D-Band for 6G Wireless Networks.” 
+      In <em>MILCOM 2024 – IEEE Military Communications Conference (MILCOM)</em>, pp. 276–281. IEEE, 2024.
+    </li>
+    <li>
+      Chapagain, L., and S. Nie. “Machine-Learning-Assisted Multi-Band Antenna Design in the D-Band,” 
+      2025 IEEE International Symposium on Antennas &amp; Propagation and North American Radio Science Meeting, Ottawa, Canada, July 2025, to appear.
+    </li>
+    <li>
+      Co-PI Nie gave an invited talk titled “Global spectrum allocation above 200 GHz for future communication and sensing opportunities,” 
+      in the NextG Channel Model Alliance Group Meeting, December 2024 (online).
+    </li>
+    <li>
+      Co-PI Nie gave an invited talk titled “Bridging the Digital Divide in 6G: Millimeter Wave and Terahertz Communications for Next-Generation Wireless Networks,” 
+      at the 6th Buffalo Wireless Day, Buffalo, NY, October 2024.
+    </li>
+  </ol>
 </div>
 
-<div class="edu-activity">
-Applying RIS to THz spectra presents many new challenges in both hardware and algorithm designs. Typical hardwarecomponents for controlling an RIS element, such as varactors, diodes, transistors, and capacitors, become prohibitivelyexpensive and 
-extremely difficult to control accurately at high THz frequencies. This difficulty calls for an innovative and low-cost RIS hardware solution using liquid-crystal technology that is implementable at a THz range. 
-Furthermore, even with theability to dynamically reflect and control the impinging signals, the extreme path loss of the reflected signals in the THzfrequencies calls for an additional RIS capability of not only reflecting signals but also amplifying the reflected signals. 
-This ability creates a new class of RIS,
-Active-RIS
-, which requires a small additional amount of power for RF signal amplificationat the RIS but allows the reflected signals to reach much farther, hence potentially increasing both network spectral andenergy efficiencies. 
-In addition to the hardware design challenges of such an active-RIS, controlling both the reflection andamplification of Active-RISs while keeping the power consumption manageable is a non-trivial task that requires novel andintelligent algorithm design.
-</div>
+        
+      </section>
 
-<div class="edu-activity">
-The overall objective of this project is to fill the identified gaps in wideband active RIS design and prototyping, communicationand networking algorithms design, and experimental validation for active-RIS-aided wireless networks in the sub-THzspectrum at 142 GHz. 
-The 142GHz frequency band is chosen as it appears to be the front-runner for the first sixth-generation(6G) spectrum to be allocated above 100 GHz and is a top choice for future Wi-Fi spectrum allocations in the years to come.More specifically, 
-the 142 GHz frequency range is often referred to as D-band and is gaining traction around the world for thefirst spectrum that could accommodate 5GHz or more of bandwidth allocation, allowing extremely high data rates.
-</div>
+      <footer class="page__meta">
+        
+        
 
-    </section>
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
   </article>
+
+  
+  
 </div>
 
       

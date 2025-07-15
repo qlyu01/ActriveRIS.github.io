@@ -1,5 +1,5 @@
 main:
-  - title: "Home"
+  - title: "Synopsis"
     url: /
   - title: "Personnel"
     url: /personnel/
@@ -9,3 +9,9 @@ main:
     url: /objectives/
   - title: "Publications"
     url: /publications/
+  # - title: "Code/Datasets"
+  #  url: /code_datasets/
+  - title: "Broader Impacts"
+    url: /broader-impacts/
+  - title: "Outreach"
+    url: /outreach/
